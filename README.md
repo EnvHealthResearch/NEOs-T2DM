@@ -31,4 +31,4 @@ The original model formulas are retained where verified from source code. The sh
 
 BKMR uses 20,000 MCMC iterations (seed 2026). P4/P5 show latent probit estimates, not odds ratios; they are saved as PNG and 600 dpi TIFF. Original P2/P3/P6 interaction plots are not included.
 
-Tested with R 4.6.1, survival 3.8.6, Hmisc 5.3.0 and bkmr 0.2.2; ggplot2 is also required. Original data, convergence and manuscript results have not been verified. Upload only these scripts, example_data.csv, README.md and .gitignore; do not upload neighboring original folders or generated results. No public upload has occurred.
+The example workflow was tested with R 4.6.1, survival 3.8.6, Hmisc 5.3.0 and bkmr 0.2.2; ggplot2 is required for plotting. BKMR execution was tested using a shortened chain of 100 iterations; the distributed script specifies 20,000 iterations, as in the original analysis. The 20,000-iteration configuration has not been rerun as part of this code cleanup. The synthetic data illustrate code execution and do not reproduce the study's numerical results. Original study data, model convergence and manuscript numerical results have not been independently verified.
