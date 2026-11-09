@@ -1,0 +1,7 @@
+results/
+*.rds
+*.RData
+*.xlsx
+*.xls
+.Rhistory
+.DS_Store
